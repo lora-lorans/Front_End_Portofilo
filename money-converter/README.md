@@ -132,9 +132,9 @@ The visual identity of the project uses:
 **Lotus Designs**  
 🎨 Web Designing & Developing
 
-📌 Portfolio: `Add your portfolio URL here`
+📌 Portfolio: `https://github.com/lora-lorans`
 
-📬 Contact: `Add your contact information here`
+📬 Contact: `loralorans9@gmail.com`
 
 ---
 
