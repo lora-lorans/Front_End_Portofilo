@@ -1,57 +1,40 @@
-# Front End Portfolio
+# 📸 Interactive Gallery & Responsive Navbar
 
-This repository contains a collection of my front-end projects built using HTML, CSS, and JavaScript.
-All projects were created in 2025 as part of my learning and practice journey.
+A clean, lightweight front-end practice project built entirely with **Vanilla (Pure) HTML, CSS, and JavaScript**. 
 
----
-
-## Projects
-
-### 1. Restaurant Website
-
-A responsive restaurant website with a modern design, menu page, and food showcase.
-
-Folder: `restaurant-website/`
+This project demonstrates core DOM manipulation, event-driven interactions, and responsive design techniques without relying on external libraries or frameworks.
 
 ---
 
-### 2. Simple To-Do App
+## ✨ Features
 
-A basic task management app that allows adding and deleting tasks بسهولة.
-
-Folder: `simple-to-do/`
-
----
-
-### 3. Calculator App
-
-A stylish calculator with dark mode and keyboard support.
-
-Folder: `calculator-app/`
+- **📱 Responsive Navbar:** Smooth toggle menu designed for optimal usability across mobile, tablet, and desktop screens.
+- **🖼️ Interactive Image Gallery:** Intuitive gallery allowing users to preview and switch between images seamlessly.
+- **👆 Click & Touch Interactions:** Supports direct clicking and touch gestures to transition between photos effortlessly.
+- **⚡ Pure Web Stack:** Zero external dependencies—lightweight, fast, and easy to run anywhere.
 
 ---
 
-## Technologies Used
+## 🛠️ Built With
 
-* HTML5
-* CSS3
-* JavaScript
-
----
-
-## Notes
-
-Each project is located in its own folder with its own structure and files.
+* **HTML5:** Semantic and accessible structure.
+* **CSS3:** Flexbox, media queries for responsiveness, and transitions.
+* **JavaScript (ES6):** Dynamic event handling and DOM manipulation.
 
 ---
 
-## Author
+## 📂 Project Structure
 
-Front-End Developer passionate about building clean and interactive web interfaces.
-
----
-
-## Year
-
-2025
-
+```text
+├── gallery/
+│   ├── img/
+│   │   ├── baby.jpg
+│   │   ├── css.png
+│   │   ├── html.png
+│   │   ├── js.png
+│   │   ├── neat.png
+│   │   └── py.png
+│   ├── index.html
+│   ├── style.css
+│   └── main.js
+└── README.md
