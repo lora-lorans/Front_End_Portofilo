@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: url("img/neat.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #062d38;
+    padding: 10px 20px;
+    position: relative;
+    color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
+#menu {
+  display: none;
+  /* position: absolute;
+  top: 100%; */
+  /* order: 3; */
+  /* left: 0; */
+  width: 100%;
+  background: #026060;
+  list-style: none;
+  padding: 20px;
+}
+
+#menu.active {
+  display: block;
+}
+
+#menu li {
+  margin: 15px 0;
+}
+
+#menu a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: #759cad;
+}
+
+
+
+/* gallery */
+.gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.photos img{
+  width: 150px;
+  height: 150px;
+  border: 5px solid #6f8388;
+  /* display: flex; */
+  
+
+}
+
+.photos img:hover{
+  width: 150px;
+  height: 150px;
+  border: 5px solid rgb(27, 111, 115);
+  cursor: pointer;
+}
+
+
+.main img{
+  width: 550px;
+  height: 550px;
+  border: 5px solid #6f8388;
+
+
+}
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15 px;
+    }
+
+    .navbar h2 {
+        font-size: 22px;
+    }
+
+    .gallery {
+        margin-top: 25px ;
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    .photos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .photos img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .photos img:hover {
+        width: 70px;
+        height: 70px;
+    }
+
+    .main img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

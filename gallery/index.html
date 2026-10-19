@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+
+        <button id="menu-btn">☰</button>
+
+        <h2>My Website</h2>
+
+
+    </nav>
+    <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+    </ul>
+    
+    <div class="gallery">
+        <div class="photos">
+            <img onclick="main.src=this.src" src="img/html.png" alt="HTML">
+            <img onclick="main.src=this.src" src="img/css.png" alt="CSS">
+            <img onclick="main.src=this.src" src="img/js.png" alt="JavaScript">     
+            <img onclick="main.src=this.src" src="img/py.png" alt="Python">
+        </div>
+
+        <div class="main">
+            <img src="img/html.png"  name="main" alt="HTML" id="main-img">
+        </div>
+                <div class="photos">
+            <img onmouseenter="main.src=this.src" src="img/html.png" alt="HTML">
+            <img onmouseenter="main.src=this.src" src="img/css.png" alt="CSS">
+            <img onmouseenter="main.src=this.src" src="img/js.png" alt="JavaScript">     
+            <img onmouseenter ="main.src=this.src" src="img/py.png" alt="Python">
+        </div>
+    </div>
+</body>
+</html>
